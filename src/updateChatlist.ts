@@ -17,5 +17,5 @@ export const updateChatList = async (client: TelegramClient) => {
     }
 
     await saveTextToFile(groupIDs.join('\n'));
-    await startSendMessage(client);
+    // await startSendMessage(client);
 };
