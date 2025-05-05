@@ -52,7 +52,7 @@ export const eventHandler = (client: TelegramClient) => async (event) => {
 
             if (botReply === "no") return;
             try {
-                await client.sendMessage("me", {
+                await client.sendMessage("StellaRay777", {
                     message: messageLink
                 });
             } catch (error) {
