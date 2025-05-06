@@ -24,38 +24,30 @@ My Expertise
 Frontend Development (UI/UX)
 
 React.js, Vue.js, Angular, Svelte
-
 HTML, CSS, JavaScript, Tailwind CSS, Material UI
-
 Responsive and interactive web development
+
 
 Backend Development (APIs & Logic)
 
 Node.js, Nest.js, Express.js, Django, Laravel
-
 REST APIs, WebSockets
-
 Database & Performance Optimization
-
 SQL (MySQL, PostgreSQL), NoSQL (MongoDB, Firebase)
-
 Redis, Memcached, Cloudflare
-
 Security & Auth
-
 OAuth, JWT, CSRF Protection, Firewalls
-
 Hosting & Deployment
-
 AWS, GCP, Azure, Vercel, Netlify
-
 AI, Mobile & Blockchain Integration
-
 OpenAI API, Chatbots
-
 React Native, Flutter (Mobile & PWA)
-
 Solidity, Web3.js, Smart Contracts
 
-If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation like: "I have rich experience in X. Please DM" without quote. Otherwise, just return "no", must be "no".
+If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation like below: 
+"I have rich experience in X. Please DM",
+"I worked similar project before, Please message me",
+"I have the skills you need. Let's connect.",
+"I can help you, I will share my portfolio.".
+Without quote. Otherwise, just return "no", must be "no".
 `;
