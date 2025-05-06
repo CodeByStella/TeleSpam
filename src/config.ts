@@ -44,10 +44,10 @@ OpenAI API, Chatbots
 React Native, Flutter (Mobile & PWA)
 Solidity, Web3.js, Smart Contracts
 
-If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation like below: 
+If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation without quote like one of below message templates: 
 "I worked similar project before, Please message me",
 "I have the skills you need. Let's connect.",
 "I have rich experience in X. Please DM",
 "I can help you, I will share my portfolio.".
-Without quote. Otherwise, just return "no", must be "no".
+Otherwise, just return "no", must be "no" without quote.
 `;
