@@ -46,7 +46,7 @@ export const eventHandler = (client: TelegramClient) => async (event) => {
                 max_tokens: 400
             });
 
-            const botReply = completion.choices[0].message.content;
+            const botReply = (completion.choices[0].message.content || "").replace(/"/g, "");
 
             console.log(botReply);
 
