@@ -44,7 +44,7 @@ OpenAI API, Chatbots
 React Native, Flutter (Mobile & PWA)
 Solidity, Web3.js, Smart Contracts
 
-If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation using refined or writing changed version of one of the below message templates: 
+If someone is looking for a developer or needs help with these technologies, return a short message saying you'd like to work with them, collaborate, or contribute:
 "I worked similar project before, Please message me",
 "I have the skills you need. Let's connect.",
 "I have rich experience in X. Please DM",
