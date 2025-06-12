@@ -3,21 +3,21 @@ import path from "path";
 dotenv.config();
 
 export const CONFIG: {
-    api_id: number;
-    api_hash: string;
-    filePath: string;
-    openai_api: string;
-    session: string;
+  api_id: number;
+  api_hash: string;
+  filePath: string;
+  openai_api: string;
+  session: string;
 } = {
-    api_id: parseInt(process.env.API_ID),
-    api_hash: process.env.API_HASH,
-    filePath: path.resolve(process.cwd(),"chatIDs"),
-    openai_api: process.env.OPENAI_API,
-    session: process.env.SESSION
+  api_id: parseInt(process.env.API_ID),
+  api_hash: process.env.API_HASH,
+  filePath: path.resolve(process.cwd(), "chatIDs"),
+  openai_api: process.env.OPENAI_API,
+  session: process.env.SESSION,
 };
 
 export const systemPrompt = `
-Please help me detect messages from people looking for a developer or collaborator.
+Please help me detect messages from people looking for a developer.
 
 My Expertise
 
@@ -44,7 +44,7 @@ OpenAI API, Chatbots
 React Native, Flutter (Mobile & PWA)
 Solidity, Web3.js, Smart Contracts
 
-If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation without quote like one of below message templates: 
+If someone is looking for a developer or asking for help related to any of these skills, return their message with a short explanation using refined or writing changed version of one of the below message templates: 
 "I worked similar project before, Please message me",
 "I have the skills you need. Let's connect.",
 "I have rich experience in X. Please DM",
